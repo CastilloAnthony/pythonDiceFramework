@@ -20,7 +20,7 @@ def main():
     print('All of the dice results that have been rolled: ', bag1.getHistory())
     print(bag1.help())
     print(bag1.removeDice(6))
-    #print(bag1.removeDice(6)) # Gives an error if there is no dice in the bag with the same number of faces.
+    print(bag1.removeDice(6))
     print(bag1.emptyBag())
     print(str(bag1))
     bag1.standardDiceSet()
